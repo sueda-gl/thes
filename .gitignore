@@ -27,13 +27,10 @@ wheels/
 *.egg
 
 # Database
-*.db
-*.sqlite
-*.sqlite3
-data/simulation.db
+
 
 # Results
-data/results/
+
 
 # IDE
 .vscode/
@@ -49,6 +46,4 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# Logs
-*.log
 

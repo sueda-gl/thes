@@ -1,0 +1,2901 @@
+======================================================================
+BELIEF TRACKING SYSTEM TEST
+======================================================================
+
+Running small-scale simulation...
+- 20 agents
+- 500 steps (~8 hours)
+- Campaign at step 240 (4 hours)
+- Belief measurements at steps: 239, 360, 500
+
+Initializing simulation (Run ID: run_20251107_202450)...
+✓ Database connected
+✓ Database cleared
+✓ Platform initialized
+✓ LLM client initialized
+✓ Loaded 20 personas
+✓ Inserted 20 agents into database
+✓ Created 20 agent objects
+  Generating scale-free network (BA model)...
+    γ̂ = None, clustering = 0.6109
+  ✓ Created 94 follower relationships
+✓ Social graph created:
+  - 94 follow relationships
+  - Avg 4.7 following per agent
+  - Most popular agent: Agent_002 (9 followers)
+✓ Simulation run recorded
+
+
+======================================================================
+RUNNING SIMULATION
+======================================================================
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 3/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 3/20 agents online and deciding
+  ✓ Batch 1: 3 agents decided
+  Actions: {'post': 2, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 2 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 3/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 3/20 agents online and deciding
+  ✓ Batch 1: 3 agents decided
+  Actions: {'post': 2, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 2 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'post': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+✓ Step 100/500 complete
+  - Online agents: 0
+  - Total posts: 0
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 1 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'reshare': 1, 'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 1 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 2 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'reshare': 1, 'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 1 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 3 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'none': 1, 'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 3 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'post': 1, 'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 1 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'reshare': 1, 'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 1 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 2/20 agents online
+  ✓ 5 total observations
+
+  🧠 DECISION PHASE
+  - 2/20 agents online and deciding
+  ✓ Batch 1: 2 agents decided
+  Actions: {'like': 2}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 2 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+✓ Step 200/500 complete
+  - Online agents: 0
+  - Total posts: 0
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 4 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'like': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 1 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 0/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 0/20 agents online and deciding
+  Actions: {}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  📊 BELIEF MEASUREMENT CHECKPOINT (T0)
+  - Measuring all 20 agents (baseline)
+  ✓ Measured 20/20 agents
+  ✓ Average environmental_concern: 0.700
+
+  👀 OBSERVATION PHASE
+  ✓ 1/20 agents online
+  ✓ 0 total observations
+
+  🧠 DECISION PHASE
+  - 1/20 agents online and deciding
+  ✓ Batch 1: 1 agents decided
+  Actions: {'none': 1}
+
+  ⚡ ACTION EXECUTION
+  ✓ Executed: 0 likes, 0 comments, 0 posts, 0 reshares
+
+  🎯 CAMPAIGN INJECTION (Stratified Assignment)
+Traceback (most recent call last):
+  File "/Users/suedagul/thes/test_belief_tracking.py", line 150, in <module>
+    asyncio.run(run_test())
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/suedagul/thes/test_belief_tracking.py", line 60, in run_test
+    metrics = await engine.execute_step(step)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suedagul/thes/simulation/engine.py", line 210, in execute_step
+    await self.inject_campaigns(step)
+  File "/Users/suedagul/thes/simulation/engine.py", line 299, in inject_campaigns
+    hope_ids, fear_ids = stratified_campaign_assignment(
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        agents=self.agents,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        seed=self.seed
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/suedagul/thes/simulation/targeting.py", line 53, in stratified_campaign_assignment
+    in_degrees = dict(network_graph.in_degree())
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Graph' object has no attribute 'in_degree'. Did you mean: 'degree'?

@@ -1,0 +1,22 @@
+======================================================================
+BELIEF CHANGE ANALYSIS REPORT
+Attribute: environmental_concern
+======================================================================
+
+PRIMARY ANALYSIS: Hope vs Fear Comparison
+----------------------------------------------------------------------
+Hope Campaign (n=15)
+  Mean Δenvironmental_concern: +0.0000 ± 0.0000
+
+Fear Campaign (n=15)
+  Mean Δenvironmental_concern: +0.0000 ± 0.0000
+
+Effect Size (Cohen's d): 0.000
+Statistical Test: t=nan, p=nan n.s.
+
+SECONDARY ANALYSIS: Cascade Depth Effects
+----------------------------------------------------------------------
+Direct (depth=0) (n=30)
+  Mean Δenvironmental_concern: +0.0000 ± 0.0000
+
+======================================================================
