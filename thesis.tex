@@ -1,0 +1,138 @@
+\documentclass[12pt,a4paper]{report}
+
+% Encoding and language
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Layout and typography
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+
+% Figures, tables, math
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{csquotes}
+
+% Links and URLs
+\usepackage[hidelinks]{hyperref}
+
+% Citations (BibTeX + natbib)
+\usepackage[numbers,sort&compress]{natbib}
+
+% Code/monospace helpers
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{basicstyle=\ttfamily\small, breaklines=true, frame=single, backgroundcolor=\color[gray]{0.98}}
+
+\title{A Modular Framework for Large-Scale Social Media Simulation Using LLM-Based Autonomous Agents}
+\author{[Your Name]} % Replace with your name
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This thesis introduces a modular, auditable simulation framework in which autonomous agents powered by Large Language Models (LLMs) interact in a stylized social media environment. The framework separates concerns into interchangeable modules—agent persona and decision models, platform mechanics (follow graph, personalized feeds, post and interaction semantics, and a transparent recency+engagement ranking), content injection, and measurement/analysis—so that experiments can be configured, replicated, and extended with minimal coupling.
+
+As a focused case study, we compare the effects of hope- versus fear-framed environmental campaigns in a synthetic population. Persona-conditioned LLM agents observe personalized feeds, decide among constrained actions (like, comment, post, or do nothing), and generate downstream content that propagates through the follow graph. Campaigns are injected as exogenous, targeted posts; exposures are tracked at direct, secondary, and tertiary levels; and cascades are summarized by reach, amplification, and virality metrics. The analysis quantifies relative differences across engagement composition, temporal dynamics, and network spread, and it includes statistical tests for between-arm comparisons and moderation by agent traits.
+
+Rather than predicting real-world outcomes, the goal is decision support: a cost-effective way to pre-test message strategies in silico under controlled, transparent assumptions. To assess plausibility, we align observed patterns with established regularities in online diffusion (e.g., heavy-tailed engagement, attention decay, homophily) and with well-documented effects of emotional framing on sharing and discussion. The contribution is twofold: a modular LLM-agent framework for social media experimentation, and a proof-of-concept case study showing how it can reveal relative differences between campaign framings while remaining reproducible, interpretable, and ethically scoped.
+\end{abstract}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\chapter{Introduction}
+Social media has become the dominant channel through which information, opinions, and marketing messages spread. Yet understanding why some messages travel widely while others stall remains difficult in practice. Real-world experiments are costly to run at scale, confounded by shifting platform algorithms and contemporaneous events, and often infeasible when rapid iteration is needed. This thesis responds to that practical and methodological need by proposing a modular, auditable simulation framework in which autonomous agents powered by large language models (LLMs) interact in a stylized social platform. The framework enables controlled, reproducible experiments on population-level dynamics at low cost, with transparent assumptions that can be inspected and varied.
+
+At the center of this work is a focused research question with immediate relevance to marketing and public communication: in a synthetic social network of persona-driven agents, do hope-framed environmental messages generate more sharing and network reach than fear-framed messages, which are hypothesized to elicit more discussion? The question is motivated by two strands of literature. First, research on emotional content and sharing shows that positive, high-arousal emotions tend to facilitate diffusion, whereas fear appeals capture attention, shape attitudes, and invite deliberation but do not consistently translate into sharing\citep{berger2012,tannenbaum2015,witte2000}. Second, research on platform mechanics and online diffusion demonstrates that visibility is shaped by novelty, early engagement, and network structure, and that cascades can be summarized not only by size but by their structural virality\citep{lerman2010,bakshy2012,goel2016}. Together these literatures suggest a testable, platform-aware hypothesis space: if hope-like appeals are more shareable, we should observe higher amplification and broader reach in hope conditions, while fear conditions should show a higher proportion of comments relative to reposting and a more discussion-heavy engagement profile.
+
+The proposed framework decomposes the simulated platform into interchangeable modules: an agent module that maps structured observations to actions via persona-conditioned LLMs; a platform module that maintains a follow graph, assembles personalized feeds, and applies a transparent recency-plus-engagement ranking; a content injection module that introduces exogenous campaigns under controlled timing and targeting; and a measurement and analysis module that records exposures, interactions, and cascades, and computes comparative metrics and statistical tests. By separating concerns, the framework makes it straightforward to swap ranking heuristics, vary campaign seeding strategies, or extend agent cognition without rewriting the system. This modularity is by design: the intent is not to mimic any specific commercial platform, but to provide a tractable, extensible testbed in which assumptions are explicit and modifiable.
+
+The agent design draws on recent advances in generative agents, which show that LLMs, when scaffolded with memory and reflective processes, can sustain trait-consistent, context-aware behavior over time\citep{park2023}. Extensions such as metacognitive self-critique for goal alignment\citep{toy2024} and personality conditioning for behavioral diversity\citep{vu2024} motivate future enhancements. In the present thesis, agents are instantiated with demographic attributes, Big Five personality traits, and interests; they perceive a structured view of their feeds and decide among a constrained action space---like, comment, post, or do nothing. The action space is deliberately limited to keep parsing reliable and evaluation consistent, while still capturing the core social gestures that drive engagement and spread.
+
+The case study isolates the comparative effects of hope versus fear framing in environmental messaging. Campaigns are injected as exogenous, targeted posts at a specified step after a brief warm-up. Exposures are tracked at direct, secondary, and tertiary levels so that both immediate delivery and downstream propagation can be analyzed. The analysis reports engagement composition across likes, comments, and posts; reach and virality coefficients grounded in cascade accounting; timeline dynamics that reveal peaks and decay; and moderation by personality traits and age cohorts. Statistical comparisons are conducted to assess differences between arms, and multiple random seeds are used to assess robustness.
+
+A critical aspect of this thesis is calibration of claims. The goal is not to predict real-world outcomes on a particular platform, which would require proprietary ranking algorithms, heterogeneous media formats, and observational data unavailable here. The claim is decision support under transparent, stylized mechanics: the simulator aims to reveal plausible relative differences across conditions, not to forecast absolute volumes. To that end, the thesis includes behavioral validation checks that align observed simulation patterns with well-established regularities in social media data: heavy-tailed concentration of engagement across posts, attention decay after injection, homophily in interaction patterns, and diffusion signatures consistent with prior cascade studies\citep{clauset2009,wu2007,crane2008,mcpherson2001}. It also includes a discussion of limitations and ethics, including the potential for LLM priors to shape agent behavior and the appropriate use of synthetic populations as complements---not substitutes---for field testing when real-world stakes are high.
+
+\paragraph{Contributions.} The contributions are twofold. First, a modular framework for LLM-agent social simulation that is reproducible, auditable, and extensible, with clear interfaces between agent cognition, platform mechanics, content injection, and measurement. Second, a focused, practically relevant experiment comparing hope and fear framing, yielding interpretable differences in engagement composition and spread that are consistent with established empirical findings.
+
+\chapter{Related Work}
+\section{Generative Agents and LLM-Based Simulation}
+Generative agents demonstrate that LLMs, paired with memory and reflection, can sustain believable behaviors in open-ended environments\citep{park2023}. Extensions add self-critique and goal alignment\citep{toy2024}, and personality conditioning for behavioral diversity (e.g., Big Five)\citep{vu2024}. Recent platforms explore LLM-driven social simulations at larger scales and with richer logging\citep{tang2024,liang2024,wang2025}. Position papers argue that multi-agent LLM systems enable new in-silico methodologies for computational social science; government programs (e.g., DARPA SocialSim) highlight operational relevance.
+
+\section{Platform Mechanics and Online Diffusion}
+Empirical studies show that recency and early engagement affect visibility and eventual popularity in social feeds\citep{lerman2010}. Diffusion is shaped by network structure and exposure mechanisms\citep{kempe2003,bakshy2012}, with \emph{structural virality} distinguishing broadcast versus multi-step cascades\citep{goel2016}. These insights motivate a transparent feed model (recency+engagement) and explicit exposure tracking (direct, secondary, tertiary) in our implementation.
+
+\section{Emotion, Sharing, and Discussion}
+Positive, high-arousal emotions (e.g., awe/hope-like tones) are associated with higher sharing propensity\citep{berger2012}, while fear appeals reliably attract attention and shape attitudes but do not always increase sharing\citep{tannenbaum2015,witte2000}. We operationalize these hypotheses by contrasting hope and fear campaigns and measuring sharing (posts), reactions (likes), and discussion (comments).
+
+\chapter{Modular Framework}
+\section{Design Principles}
+The framework emphasizes modularity (swap-in components), observability (complete logs for analysis), reproducibility (seeded randomness and configuration), and cost-awareness (bounded LLM calls). It decomposes the simulator into five modules: (1) Agent (persona conditioning, memory/decision), (2) Platform (graph, feed, interactions, ranking), (3) Injection (campaigns/events), (4) Measurement (exposures, cascades, metrics), and (5) Analysis (statistics, visualization, validation).
+
+\section{Agent Module}
+Agents are persona-conditioned LLM policies that map structured observations to actions in a constrained action space (like, comment, post, none). To align with generative-agents work, future iterations incorporate memory, reflection, and introspection cycles\citep{park2023,toy2024}, and richer personality conditioning\citep{vu2024}.
+
+\section{Platform Module}
+The platform maintains a follow graph and builds personalized feeds from followees' content and targeted injections. Ranking uses a transparent recency+engagement score, consistent with prior observations of novelty decay and popularity feedback\citep{lerman2010}. Exposures are tracked as direct (targeted), secondary, and tertiary to support cascade analysis.
+
+\section{Injection Module}
+Campaigns are injected at configured steps into targeted subsets of agents, enabling controlled comparisons (e.g., hope vs. fear framing) without confounds.
+
+\section{Measurement and Analysis Module}
+The simulator logs agents, posts/comments, likes, follow edges, observations, campaign exposures, and run metadata. Analysis produces engagement, reach, virality, and discussion metrics, and runs statistical tests (e.g., chi-square, proportion z-test, Fisher's exact). Validation checks planned include heavy-tailed engagement\citep{clauset2009}, temporal decay\citep{wu2007,crane2008}, and homophily\citep{mcpherson2001}.
+
+\chapter{Implementation}
+\section{Codebase Overview}
+We implement the framework in Python with asynchronous LLM calls and SQLite persistence. The core components are:
+\begin{itemize}
+  \item \texttt{simulation/agent.py}: Persona-conditioned LLM decision loop
+  \item \texttt{simulation/platform.py}: Social graph, feed building, ranking, content and exposure tracking
+  \item \texttt{llm/prompts.py}: Decision prompts and action parsing
+  \item \texttt{database/schema.sql}: Tables for agents, posts, follows, interactions, observations, campaigns, exposures, runs
+  \item \texttt{analysis/metrics.py}, \texttt{analysis/cascade.py}: Metrics, cascades, statistical tests
+\end{itemize}
+
+\section{Mapping Mechanics to Code}
+Feed construction merges followees' recent posts with targeted campaign posts; ranking combines recency with engagement and a campaign boost. Exposures are recorded at injection (direct) and when content appears via friends (secondary/tertiary). These choices make treatment delivery auditable and cascade levels explicit.
+
+\chapter{Experimental Design: Hope vs. Fear}
+\section{Setup}
+We initialize $N$ agents with demographics, Big-Five traits, interests, and behavior styles. After a warm-up, we inject two environmental campaigns—one hope-framed and one fear-framed—into balanced subpopulations. The simulation proceeds for a fixed number of steps.
+
+\section{Metrics}
+We track engagement totals and rates, reach (direct/secondary/tertiary), virality coefficient (secondary/direct), amplification (share/post rate), and discussion density (comments per post). Statistical tests assess differences between arms and moderation by personality.
+
+\section{Protocol}
+We fix seeds for reproducibility and run multiple seeds to estimate variability. Parameters include number of agents, steps, feed size, LLM temperature, and campaign launch step.
+
+\chapter{Results}
+We report aggregate metrics, temporal dynamics, cascade summaries, and moderation analyses. Figures compare hope vs. fear across engagement types, reach, and virality. Qualitative excerpts illustrate representative posts and comments.
+
+\chapter{Validation}
+We triangulate plausibility by (i) literature alignment on hope/fear patterns\citep{berger2012,tannenbaum2015}, (ii) behavioral regularities (heavy-tailed engagement\citep{clauset2009}, attention decay\citep{wu2007,crane2008}, homophily\citep{mcpherson2001}), and (iii) sensitivity to seeds and temperature. We also discuss threats to validity and ethical considerations.
+
+\chapter{Discussion}
+We interpret observed differences in the context of emotional framing and diffusion. We emphasize the value of a modular, auditable simulator for relative-effect testing, and we outline extensions (e.g., structural virality, introspective agents, alternative feed algorithms).
+
+\chapter{Conclusion}
+We introduced a modular LLM-agent framework for social media simulation and demonstrated its use on a focused hope-vs.-fear case study. The framework enables cost-effective, reproducible, and analyzable in-silico experiments that complement field tests.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\chapter{Appendix}
+Additional figures, configuration tables, and robustness checks.
+
+\end{document}
+
+

@@ -1,0 +1,14 @@
+{
+  "experiment_date": "2025-11-08",
+  "database": "data/thesis_experiment_20251108_015809.db",
+  "total_agents": 200,
+  "simulation_steps": 2000,
+  "total_posts": 55548,
+  "total_interactions": 1371,
+  "total_belief_measurements": 424,
+  "total_exposures": 175,
+  "hope_targeted": 56,
+  "fear_targeted": 56,
+  "llm_calls": 117728,
+  "estimated_cost_usd": 284.59
+}

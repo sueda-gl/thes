@@ -1,0 +1,138 @@
+{
+  "age_distribution": {
+    "ranges": [
+      {"min": 18, "max": 24, "weight": 0.15},
+      {"min": 25, "max": 34, "weight": 0.30},
+      {"min": 35, "max": 44, "weight": 0.25},
+      {"min": 45, "max": 54, "weight": 0.20},
+      {"min": 55, "max": 65, "weight": 0.10}
+    ]
+  },
+  
+  "gender_distribution": {
+    "male": 0.48,
+    "female": 0.48,
+    "non-binary": 0.04
+  },
+  
+  "location_distribution": {
+    "urban": 0.55,
+    "suburban": 0.30,
+    "rural": 0.15
+  },
+  
+  "income_distribution": {
+    "low": 0.25,
+    "middle": 0.50,
+    "high": 0.25
+  },
+  
+  "interests": {
+    "environmental": [
+      "sustainability",
+      "climate action",
+      "renewable energy",
+      "conservation",
+      "zero waste",
+      "eco-friendly living",
+      "environmental justice",
+      "green technology",
+      "wildlife protection",
+      "clean energy"
+    ],
+    "lifestyle": [
+      "health and wellness",
+      "fitness",
+      "cooking",
+      "travel",
+      "photography",
+      "gardening",
+      "DIY projects",
+      "minimalism",
+      "yoga",
+      "meditation"
+    ],
+    "social": [
+      "community organizing",
+      "volunteering",
+      "social justice",
+      "education",
+      "advocacy",
+      "activism",
+      "local events",
+      "networking",
+      "cultural events",
+      "art and culture"
+    ],
+    "technology": [
+      "innovation",
+      "startups",
+      "apps",
+      "gadgets",
+      "coding",
+      "AI and automation",
+      "tech news",
+      "digital trends",
+      "science",
+      "data science"
+    ]
+  },
+  
+  "personality_traits": {
+    "openness": {
+      "mean": 0.5,
+      "std": 0.15,
+      "min": 0.1,
+      "max": 0.9
+    },
+    "conscientiousness": {
+      "mean": 0.5,
+      "std": 0.15,
+      "min": 0.1,
+      "max": 0.9
+    },
+    "extraversion": {
+      "mean": 0.5,
+      "std": 0.15,
+      "min": 0.1,
+      "max": 0.9
+    },
+    "agreeableness": {
+      "mean": 0.5,
+      "std": 0.15,
+      "min": 0.1,
+      "max": 0.9
+    },
+    "neuroticism": {
+      "mean": 0.5,
+      "std": 0.15,
+      "min": 0.1,
+      "max": 0.9
+    }
+  },
+  
+  "social_behavior": {
+    "lurker": 0.30,
+    "casual": 0.40,
+    "active": 0.25,
+    "power_user": 0.05
+  },
+  
+  "names": {
+    "first_names": [
+      "Alex", "Sarah", "Michael", "Emma", "James", "Olivia", "David", "Sophia",
+      "John", "Isabella", "Robert", "Mia", "William", "Charlotte", "Joseph", "Amelia",
+      "Daniel", "Harper", "Matthew", "Evelyn", "Christopher", "Abigail", "Andrew", "Emily",
+      "Joshua", "Elizabeth", "Ryan", "Sofia", "Nicholas", "Avery", "Tyler", "Ella",
+      "Kevin", "Madison", "Jacob", "Scarlett", "Brandon", "Victoria", "Zachary", "Aria",
+      "Nathan", "Grace", "Samuel", "Chloe", "Benjamin", "Camila", "Aaron", "Penelope",
+      "Christian", "Riley", "Dylan", "Layla", "Jordan", "Lillian", "Luke", "Nora",
+      "Justin", "Zoey", "Elijah", "Mila", "Jonathan", "Aubrey", "Gabriel", "Hannah",
+      "Isaac", "Lily", "Caleb", "Addison", "Austin", "Eleanor", "Evan", "Natalie",
+      "Ethan", "Luna", "Mason", "Savannah", "Lucas", "Brooklyn", "Logan", "Leah",
+      "Jackson", "Zoe", "Aiden", "Stella", "Oliver", "Hazel", "Noah", "Ellie",
+      "Liam", "Paisley", "Carter", "Audrey", "Jayden", "Skylar", "Connor", "Violet"
+    ]
+  }
+}
+
