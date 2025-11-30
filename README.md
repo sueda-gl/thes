@@ -4,7 +4,7 @@ A bachelor thesis project that uses AI agents to simulate social media dynamics 
 
 ## Overview
 
-This simulation platform creates a virtual social media environment with 100 AI agents (powered by GPT-3.5) that have unique personalities, social connections, and behavioral patterns. The agents interact over 10 time steps, and we measure how different emotional framings in campaigns affect engagement, network reach, and virality.
+This simulation platform creates a virtual social media environment with 100 AI agents (powered by GPT-4o) that have unique personalities, social connections, and behavioral patterns. The agents interact over 200 time steps, and we measure how different emotional framings in campaigns affect agents' internal beliefs regarding environmental issues
 
 ### Research Question
 
